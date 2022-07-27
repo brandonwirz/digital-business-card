@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #23252C;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header.header-img-wrapper {}
+
+header.header-img-wrapper .bw-profile-img {
+  width: 320px;
+  border-radius: 10px 10px 0px 0px;
+  margin: 80px 0 -30px 0;
+}
+
+main {
+  background: #1A1B21;
+  width: 320px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+h1, h2, h3, h3,
+h4, h5, h6, p {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: .8rem;
+  font-weight: 400;
+  color: #F3BF99;
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 0px;
+  font-weight:700;
+}
+
+p {
+  font-size: .8rem;
+  letter-spacing: .02rem;
+  line-height: 22px;
+  font-weight:400;
+}
+
+.flex-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+span {
+  padding-left: 15px;
+}
+
+.email-cta, .linkedin-cta {
+  /* padding: 8px 20px 10px 20px; */
+  background-color: #5093E2;
+  border-radius: 6px;
+  margin: 0 5px 0;
+  width: 135px;
+  height: 34px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.email-cta {
+  /* box-shadow: 0px 1px 2px 0px #0000000D; */
+  background-color: #ffffff;
+  color: #374151;
+}
+
+.email-cta:before {
+  content: url('./images/Mail.png');
+  position: absolute;
+  top: 2px;
+  left: 30px;
+  transform: scale(.7);
+}
+
+.linkedin-cta:before {
+  content: url('./images/linkedin-sm.png');
+  position: absolute;
+  top: 2px;
+  left: 22px;
+  transform: scale(.7);
+}
+
+.wh-txt-clr {
+  color: #ffffff;
+}
+
+.about-section,.interests-section {
+  background-color: #1A1B21;
+  width: 320px;
+  padding: 0 25px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+.social-icon{
+  padding:0 10px 0;
+  cursor:pointer;
+}
+footer{
+  background: #161619;
+  width:320px;
+  display: flex;
+  justify-content: center;
+  padding:30px 0;
+  margin-bottom:60px;
+}
